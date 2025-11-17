@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet, ɵEmptyOutletComponent } from '@angular/router';
 import { ContainerComponent } from "./componentes/container/container.component";
+import { CabecalhoComponent } from "./componentes/cabecalho/cabecalho.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule,
-    RouterOutlet,
-    ɵEmptyOutletComponent,
-    ContainerComponent
+    ContainerComponent,
+    CabecalhoComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
