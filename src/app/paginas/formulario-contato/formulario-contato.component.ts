@@ -4,6 +4,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 
 import { ContainerComponent } from '../../componentes/container/container.component';
 import { SeparadorComponent } from '../../componentes/separador/separador.component';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-formulario-contato',
@@ -12,8 +13,9 @@ import { SeparadorComponent } from '../../componentes/separador/separador.compon
     CommonModule,
     ContainerComponent,
     SeparadorComponent,
-    ReactiveFormsModule
-  ],
+    ReactiveFormsModule,
+    RouterLink
+],
   templateUrl: './formulario-contato.component.html',
   styleUrl: './formulario-contato.component.css'
 })
