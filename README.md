@@ -1,27 +1,153 @@
-# Indexa
+## Agenda de Contatos - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Aplicação desenvolvida em Angular para gerenciamento de contatos, com foco em organização, boas práticas e evolução progressiva do código.
 
-## Development server
+💡 O projeto demonstra desde a criação da estrutura inicial até a implementação de funcionalidades reais como formulários reativos, rotas e persistência de dados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 📌 Sobre o projeto
 
-## Code scaffolding
+A aplicação permite:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+📇 Listar contatos <br/>
+➕ Adicionar novos contatos <br/>
+🔍 Filtrar contatos <br/>
+💾 Persistir dados no navegador <br/>
 
-## Build
+### 🧠 Principais conceitos aplicados
+### ⚡ Angular
+- Componentização
+- Data binding
+- Diretivas (*ngIf, ngClass)
+- Rotas (Angular Router)
+- Injeção de dependência (DI)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 🧾 Formulários reativos
+- Reactive Forms
+- Validações customizadas
+- Feedback visual no template
+- Controle de estado do formulário
 
-## Running unit tests
+### 🧩 Organização e arquitetura
+- Separação por componentes
+- Criação de serviços
+- Reutilização de código
+- Estrutura escalável
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 🛠️ Funcionalidades implementadas
+### 📇 Lista de contatos
+- Renderização dinâmica
+- Separação por componentes
+- Estilização personalizada
 
-## Running end-to-end tests
+### 🔍 Filtro de contatos
+- Método de busca
+- Normalização de texto (remoção de acentos)
+- Melhor experiência do usuário
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### ➕ Cadastro de contato
+- Formulário reativo
+- Validações com if e ngClass
+- Feedback visual para o usuário
 
-## Further help
+### 🧭 Navegação
+- Configuração de rotas
+- Página de listagem de contatos
+- Página de cadastro
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 💾 Persistência de dados
+- Uso de localStorage
+- Serviço dedicado para manipulação de dados
+- Injeção de dependência para desacoplamento
+
+### 🎨 Interface
+- Estrutura HTML e CSS customizada
+- Componentes reutilizáveis:
+- Cabeçalho
+- Contato
+- Separador
+
+### Melhorias visuais progressivas
+
+⚙️ Estrutura do projeto <br/>
+📦 agenda-contatos <br/>
+ ┣ 📂 src <br/>
+ ┃ ┣ 📂 app <br/>
+ ┃ ┃ ┣ 📂 components <br/>
+ ┃ ┃ ┣ 📂 services <br/>
+ ┃ ┃ ┣ 📂 pages <br/>
+ ┃ ┃ ┗ 📂 models <br/>
+ ┃ ┣ 📂 assets <br/>
+ ┃ ┗ 📂 styles <br/>
+ ┣ 📜 angular.json <br/>
+ ┣ 📜 package.json <br/>
+ ┗ 📜 README.md <br/>
+
+### ⚙️ Como executar o projeto
+### Clonar repositório
+git clone https://github.com/FilipeASSouza/indexa.git
+
+### Acessar pasta
+cd indexa
+
+### Instalar dependências
+npm install
+
+### Rodar projeto
+ng serve
+
+### Acessar no navegador
+http://localhost:4200
+
+### 📈 Evolução do projeto (baseado nos commits)
+### 🔰 Início (Out 2025)
+- Criação do projeto Angular
+- Configuração inicial
+
+### Estrutura base
+### 🎨 Interface (Nov 2025)
+- Criação do cabeçalho
+- Componentes visuais
+- Ajustes de estilo
+
+### 📇 Lista e dados (Dez 2025)
+- Implementação da lista de contatos
+- Estrutura JSON inicial
+- Componentização
+
+### 🔍 Funcionalidades (Dez 2025)
+- Filtro de contatos
+- Normalização de texto
+- Melhorias de UX
+
+### 🧾 Formulários (Dez 2025)
+- Formulários reativos
+- Validações
+- Feedback visual
+
+### 🧭 Navegação (Dez 2025)
+- Configuração de rotas
+- Separação de páginas
+
+### 💾 Persistência (Jan 2026)
+- Uso de localStorage
+- Criação de service
+- Injeção de dependência
+
+### 🚧 Próximos passos
+- Editar contatos
+- Remover contatos
+- Persistência com API (backend)
+- Testes automatizados
+
+### Deploy
+### 👨‍💻 Autor
+
+Desenvolvido por Filipe Souza
+
+### 💡 Observação
+
+Este projeto demonstra:
+
+- Evolução incremental baseada em commits
+- Organização de código em Angular
+- Aplicação de conceitos reais de frontend
